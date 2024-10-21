@@ -1,25 +1,25 @@
   class OgcCli < Formula
     desc "ogc"
     homepage "https://github.com/saibit-tech/open-gpu-cloud"
-    version "ogc-cli-v0.4.4"
+    version "ogc-cli-v0.4.5"
 
     if OS.mac? && Hardware::CPU.intel?
-      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.4/ogc_cli-darwin_amd64"
+      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.5/ogc_cli-darwin_amd64"
       sha256 ""
     end
 
     if OS.mac? && Hardware::CPU.arm?
-      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.4/ogc_cli-darwin_arm64"
+      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.5/ogc_cli-darwin_arm64"
       sha256 ""
     end
 
     if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.4/ogc_cli-linux_amd64"
+      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.5/ogc_cli-linux_amd64"
       sha256 ""
     end
 
     if OS.linux? && Hardware::CPU.arm?
-      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.4/ogc_cli-linux_arm64"
+      url "https://github.com/saibit-tech/homebrew-tap/releases/download/ogc-cli-v0.4.5/ogc_cli-linux_arm64"
       sha256 ""
     end
 
