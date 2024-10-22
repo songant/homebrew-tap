@@ -1,4 +1,4 @@
-  class OgcCli < Formula
+  class OgcCliAT011 < Formula
     desc "ogc"
     homepage "https://github.com/saibit-tech/open-gpu-cloud"
     version "0.1.1"
